@@ -1,0 +1,29 @@
+{
+  "name": "salvo-pruiti/countries",
+  "description": "PHP Library for RestCountries.eu",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Salvatore Pruiti",
+      "email": "salvatorepruiti@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SalvatorePruiti\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SalvatorePruiti\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "6.3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0@dev"
+  }
+}
