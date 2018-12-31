@@ -1,5 +1,5 @@
 {
-  "name": "salvo.pruiti/countries",
+  "name": "salvo-pruiti/countries",
   "description": "PHP Library for RestCountries.eu",
   "minimum-stability": "dev",
   "license": "MIT",
